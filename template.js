@@ -1,7 +1,8 @@
-# design_pattern
-## 常用的设计模式
-> 1、模版模式
-`
+/**
+ * 自己练习设计模式---模版模式
+ * 
+ */
+
 var Fruit = function(param) {
 
     var buy = param.buy || function() {
@@ -32,13 +33,3 @@ var Apple = Fruit({
 
 var a = new Apple();
 a.init();
-`
-> 2、代理模式
-
-
-
-
-> 3、工厂模式
-
-
-
