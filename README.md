@@ -29,7 +29,7 @@
     }
  	})
   	var a = new Apple();
- 	 a.init();
+ 	a.init();
 <hr>
 
 > 2、代理模式
