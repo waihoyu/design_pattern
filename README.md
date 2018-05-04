@@ -1,9 +1,9 @@
-# design_pattern
+# Design_pattern
 ## 常用的设计模式
 > 1、模版模式
-`
+> 
+```
 var Fruit = function(param) {
-
     var buy = param.buy || function() {
         console.log('买水果！');
     }
@@ -17,6 +17,7 @@ var Fruit = function(param) {
     }
     return F;
 }
+
 var Apple = Fruit({
     buy: function() {
         console.log('买苹果');
@@ -27,7 +28,9 @@ var Apple = Fruit({
 })
 var a = new Apple();
 a.init();
-`
+```
+
+
 > 2、代理模式
 
 
