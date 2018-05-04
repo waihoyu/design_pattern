@@ -10,17 +10,13 @@ var Fruit = function(param) {
     var sell = param.sell || function() {
         console.log('卖水果！');
     }
-
     var F = function() {}
-
     F.prototype.init = function() {
         buy();
         sell();
     }
-
     return F;
 }
-
 var Apple = Fruit({
     buy: function() {
         console.log('买苹果');
@@ -29,7 +25,6 @@ var Apple = Fruit({
         console.log('卖苹果');
     }
 })
-
 var a = new Apple();
 a.init();
 `
