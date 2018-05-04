@@ -2,6 +2,7 @@
 ## 常用的设计模式
 > 1、模版模式
 <hr>
+
 	var Fruit = function(param) {
 
     var buy = param.buy || function() {
