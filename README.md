@@ -2,8 +2,7 @@
 ## 常用的设计模式
 > 1、模版模式
 <hr>
-```javascript
-var Fruit = function(param) {
+	var Fruit = function(param) {
 
     var buy = param.buy || function() {
         console.log('买水果！');
@@ -17,9 +16,9 @@ var Fruit = function(param) {
         sell();
     }
     return F;
-  }
+ 	 }
  
-var Apple = Fruit({
+	var Apple = Fruit({
 
     buy: function() {
         console.log('买苹果');
@@ -27,10 +26,10 @@ var Apple = Fruit({
     sell: function() {
         console.log('卖苹果');
     }
- })
-  var a = new Apple();
-  a.init();
-```
+ 	})
+  	var a = new Apple();
+ 	 a.init();
+
 
 <hr>
 > 2、代理模式
@@ -38,7 +37,7 @@ var Apple = Fruit({
 ```java 
 int a; 
 int b; 
-``` 
+```  
 
 <hr>
 > 3、工厂模式
